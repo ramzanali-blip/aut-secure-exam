@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AUT Secure Exam</title>
+<meta name="description" content="Secure digital examinations designed and built at Ajou University in Tashkent: Windows and Android exam apps, automatic marking, live monitoring and IELTS-style English practice.">
+<meta property="og:title" content="AUT Secure Exam">
+<meta property="og:description" content="Secure, fair and fast digital examinations, built at Ajou University in Tashkent.">
+<meta property="og:image" content="img/video-poster.webp">
+<link rel="icon" href="img/ajou-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top"><img src="img/ajou-logo.png" alt="" width="40" height="40"><span>AUT Secure Exam<small>Ajou University in Tashkent</small></span></a>
+    <nav aria-label="Sections">
+      <a href="#features">Features</a><a href="#how">How it works</a><a href="#screens">Screenshots</a>
+      <a href="#video">Video</a><a href="#results">Results</a><a href="#try">Try it</a><a href="#downloads">Downloads</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark mode">◐</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="eyebrow">Innovation project · Ajou University in Tashkent</p>
+        <h1>Secure digital exams, <em>built at our university</em>.</h1>
+        <p class="lead">One platform for the whole examination cycle: professors create and schedule exams, students take them in a locked-down Windows or Android app, answers are saved every second, and programs and multiple-choice questions are marked automatically.</p>
+        <div class="cta">
+          <a class="btn primary" href="#try">Try it now</a>
+          <a class="btn" href="#video">Watch the 7-minute video</a>
+        </div>
+        <ul class="hero-facts">
+          <li><b>Windows · Android · Web</b><span>one design on every device</span></li>
+          <li><b>1,500</b><span>students at once in load tests</span></li>
+          <li><b>0</b><span>answers lost in every test</span></li>
+        </ul>
+      </div>
+      <figure class="hero-shot">
+        <img src="img/prof_07_live_monitor.webp" alt="Professor portal: live monitor of students during an exam" width="1400" height="875">
+        <img class="phone" src="img/and_04_question.webp" alt="Android app: a multiple-choice question during an exam" width="700" height="1240">
+      </figure>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap two">
+      <div>
+        <h2>The problem</h2>
+        <p>Paper exams need printing, rooms and invigilators, and every sheet is marked by hand. In programming courses, professors run student code one submission at a time. Generic quiz tools do not secure the student's device and cannot run code; commercial proctoring charges per student and often stores data abroad.</p>
+      </div>
+      <div>
+        <h2>Our answer</h2>
+        <p>AUT Secure Exam runs on the university's own server, uses open-source software, and works on the computers and phones students already have. No per-student licence fees, no printing, results in seconds, and every exam event recorded.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="wrap section">
+    <h2 class="sec-title">Features</h2>
+    <div class="grid3">
+      <article class="feat"><h3>Secure exam apps</h3><p>The Windows app locks the full screen; the Android app pins itself during the exam. Leaving the exam, switching windows or pasting from outside is recorded and reported.</p></article>
+      <article class="feat"><h3>Automatic marking</h3><p>Multiple choice is marked instantly. Programs (Python, Java, C++) run against the professor's test cases in an isolated Judge0 sandbox; each passed test earns its marks.</p></article>
+      <article class="feat"><h3>Live monitoring</h3><p>Professors see every student's time left, last activity and integrity warnings, and can end or reopen an attempt after a technical problem.</p></article>
+      <article class="feat"><h3>No lost answers</h3><p>Every change is saved within a second, through network drops. The timer runs on the server, so closing the app never stops it; students resume after a crash.</p></article>
+      <article class="feat"><h3>Central management</h3><p>Students, professors and administrators each see only what they should. Hourly backups, an audit log, account locking after 10 wrong passwords, and results exported to a spreadsheet.</p></article>
+      <article class="feat"><h3>English practice (IELTS)</h3><p>Speaking, writing, reading and listening at three difficulty levels with instant band estimates. Speech is transcribed on the university's own server with Whisper.</p></article>
+    </div>
+  </section>
+
+  <section id="how" class="band">
+    <div class="wrap section">
+      <h2 class="sec-title">How it works</h2>
+      <div class="two">
+        <div class="steps">
+          <h3>Professor</h3>
+          <ol>
+            <li><b>Sign in</b> to the web portal and create an exam: duration, opening and closing time, allowed apps, integrity rules.</li>
+            <li><b>Add questions</b>: multiple choice, written answers, or programming with visible and hidden test cases.</li>
+            <li><b>Publish</b> and share the short access code, or add a whole class at once.</li>
+            <li><b>Watch live</b>, then review results, mark written answers and release them with one click.</li>
+          </ol>
+        </div>
+        <div class="steps">
+          <h3>Student</h3>
+          <ol>
+            <li><b>Install</b> the Windows or Android app (or use the browser where the exam allows it).</li>
+            <li><b>Create an account</b> and join with the access code; the exam appears with its schedule.</li>
+            <li><b>Start</b>: the app locks the screen. Answers save automatically; programs can be tested on sample cases.</li>
+            <li><b>Submit</b> (or the timer submits automatically) and see the marks once the professor releases them.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screens" class="wrap section">
+    <h2 class="sec-title">Screenshots</h2>
+    <div class="tabs" role="tablist" aria-label="Screenshot groups">
+      <button role="tab" aria-selected="true" data-tab="prof">Professor portal</button>
+      <button role="tab" aria-selected="false" data-tab="win">Windows app</button>
+      <button role="tab" aria-selected="false" data-tab="and">Android app</button>
+      <button role="tab" aria-selected="false" data-tab="eng">English practice</button>
+      <button role="tab" aria-selected="false" data-tab="adm">Administrator</button>
+    </div>
+    <div class="gallery" data-panel="prof">
+      <a href="img/prof_02_exam_list.webp"><img loading="lazy" src="img/prof_02_exam_list.webp" alt=""><span>All exams at a glance</span></a>
+      <a href="img/prof_03_exam_settings.webp"><img loading="lazy" src="img/prof_03_exam_settings.webp" alt=""><span>Exam settings and integrity rules</span></a>
+      <a href="img/prof_05_code_question.webp"><img loading="lazy" src="img/prof_05_code_question.webp" alt=""><span>Programming question with test cases</span></a>
+      <a href="img/prof_07_live_monitor.webp"><img loading="lazy" src="img/prof_07_live_monitor.webp" alt=""><span>Live monitor</span></a>
+      <a href="img/prof_08_results.webp"><img loading="lazy" src="img/prof_08_results.webp" alt=""><span>Results table</span></a>
+      <a href="img/prof_09_marking.webp"><img loading="lazy" src="img/prof_09_marking.webp" alt=""><span>Marking written answers</span></a>
+    </div>
+    <div class="gallery" data-panel="win" hidden>
+      <a href="img/desk_01_home.webp"><img loading="lazy" src="img/desk_01_home.webp" alt=""><span>Home screen</span></a>
+      <a href="img/desk_03_exam_list.webp"><img loading="lazy" src="img/desk_03_exam_list.webp" alt=""><span>My exams</span></a>
+      <a href="img/desk_05_question.webp"><img loading="lazy" src="img/desk_05_question.webp" alt=""><span>Answering, with the server timer</span></a>
+      <a href="img/desk_08_result.webp"><img loading="lazy" src="img/desk_08_result.webp" alt=""><span>Released result</span></a>
+    </div>
+    <div class="gallery phones" data-panel="and" hidden>
+      <a href="img/and_01_home.webp"><img loading="lazy" src="img/and_01_home.webp" alt=""><span>Home screen</span></a>
+      <a href="img/and_04_question.webp"><img loading="lazy" src="img/and_04_question.webp" alt=""><span>Multiple choice</span></a>
+      <a href="img/and_05_code.webp"><img loading="lazy" src="img/and_05_code.webp" alt=""><span>Programming question</span></a>
+    </div>
+    <div class="gallery" data-panel="eng" hidden>
+      <a href="img/eng_02_student_home.webp"><img loading="lazy" src="img/eng_02_student_home.webp" alt=""><span>Student home: four skills</span></a>
+      <a href="img/eng_03_difficulty_filter.webp"><img loading="lazy" src="img/eng_03_difficulty_filter.webp" alt=""><span>Standard, hard and very hard levels</span></a>
+      <a href="img/eng_01_teacher_new_task.webp"><img loading="lazy" src="img/eng_01_teacher_new_task.webp" alt=""><span>Teachers create their own tasks</span></a>
+    </div>
+    <div class="gallery" data-panel="adm" hidden>
+      <a href="img/admin_01_overview.webp"><img loading="lazy" src="img/admin_01_overview.webp" alt=""><span>Server and backup overview</span></a>
+      <a href="img/admin_02_users.webp"><img loading="lazy" src="img/admin_02_users.webp" alt=""><span>Accounts and roles</span></a>
+      <a href="img/web_01_download_page.webp"><img loading="lazy" src="img/web_01_download_page.webp" alt=""><span>Students' download page</span></a>
+    </div>
+  </section>
+
+  <section id="video" class="band">
+    <div class="wrap section">
+      <h2 class="sec-title">Project presentation</h2>
+      <div class="tabs" role="tablist" aria-label="Video language">
+        <button role="tab" aria-selected="true" data-video="en">English</button>
+        <button role="tab" aria-selected="false" data-video="ru">Русский</button>
+      </div>
+      <div class="player">
+        <video id="pitch" controls preload="none" poster="img/video-poster.webp" playsinline>
+          <source src="video/aut-secure-exam-pitch.mp4" type="video/mp4">
+          <track kind="subtitles" srclang="en" label="English" src="video/aut-secure-exam-pitch.vtt">
+        </video>
+      </div>
+      <p class="muted small">About 7 minutes: the problem, the solution, technology, a complete live demo, verified performance and the roadmap.</p>
+    </div>
+  </section>
+
+  <section id="results" class="wrap section">
+    <h2 class="sec-title">Verified results</h2>
+    <div class="numbers">
+      <div><b>1,500</b><span>students already signed in, taking an exam at the same time</span></div>
+      <div><b>750</b><span>students all signing in within the same 30 seconds</span></div>
+      <div><b>0</b><span>answers lost; more than 94,000 saved answers checked one by one</span></div>
+      <div><b>8 / 8</b><span>crash, backup and restore checks passed</span></div>
+    </div>
+    <p class="muted small">Load tests in October 2026 on one laptop (Intel Core i5-13500H, 16 GB RAM) running both the server and the simulated students; 95 % of every kind of request answered in under one second. The university server will be measured with the same test before go-live.</p>
+  </section>
+
+  <section id="try" class="band">
+    <div class="wrap section">
+      <h2 class="sec-title">Try it</h2>
+      <div class="grid3">
+        <article class="card">
+          <h3>Android app, any phone</h3>
+          <p>Install the test app. It connects to the online test server when it is running, and otherwise works as an <b>offline demo</b> on the phone: create an account and take the demo exams (access code <code>DEMO1</code> adds one more).</p>
+          <a class="btn primary" href="downloads/AUT-Exam-TEST-1.3.2.apk">Download Android test app (2 MB)</a>
+          <p class="muted small">If Android asks, allow "Install unknown apps" for your browser.</p>
+        </article>
+        <article class="card">
+          <h3>Online test server</h3>
+          <p>Portal, student exams, English practice and the Windows app, available while the organiser has the test server online.</p>
+          <a class="btn" href="https://ramzanali-blip.github.io/aut-exam-link/">Open the test server</a>
+          <p class="muted small">Test data only. Do not use real passwords.</p>
+        </article>
+        <article class="card">
+          <h3>Create an account</h3>
+          <p><b>Students:</b> in the app tap Student exam, then Create an account (any e-mail, a password of 8 or more characters).</p>
+          <p><b>Professors:</b> sign up in the portal with the professor code from your department, or ask an administrator for an account.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="downloads" class="wrap section">
+    <h2 class="sec-title">Downloads and manuals</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Manual</th><th>English</th><th>O‘zbekcha</th><th>Русский</th></tr></thead>
+        <tbody>
+          <tr><td>Student manual</td><td><a href="downloads/AUT_Student_Manual_EN.pdf">PDF</a></td><td><a href="downloads/AUT_Student_Manual_UZ.pdf">PDF</a></td><td><a href="downloads/AUT_Student_Manual_RU.pdf">PDF</a></td></tr>
+          <tr><td>Professor manual</td><td><a href="downloads/AUT_Professor_Manual_EN.pdf">PDF</a></td><td><a href="downloads/AUT_Professor_Manual_UZ.pdf">PDF</a></td><td><a href="downloads/AUT_Professor_Manual_RU.pdf">PDF</a></td></tr>
+          <tr><td>Developer manual</td><td><a href="downloads/AUT_Developer_Manual_EN.pdf">PDF</a></td><td><a href="downloads/AUT_Developer_Manual_UZ.pdf">PDF</a></td><td><a href="downloads/AUT_Developer_Manual_RU.pdf">PDF</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted small">The Windows app (112 MB) is on the exam server's download page.</p>
+  </section>
+
+  <section class="band">
+    <div class="wrap section">
+      <h2 class="sec-title">Technology</h2>
+      <div class="stack">
+        <div><h3>Apps</h3><p>Electron (Windows) · Kotlin and Jetpack Compose (Android) · HTML, CSS and JavaScript (web)</p></div>
+        <div><h3>Server</h3><p>Node.js 22 · Express · JSON Web Tokens · scrypt password hashing</p></div>
+        <div><h3>Data</h3><p>SQLite (open source, WAL mode) · hourly backups · audit log</p></div>
+        <div><h3>Code marking</h3><p>Judge0 sandbox in Docker · Python, Java, C++</p></div>
+        <div><h3>Deployment</h3><p>Ubuntu Linux · nginx · Let's Encrypt HTTPS · systemd · one-file installer</p></div>
+        <div><h3>English</h3><p>Whisper speech-to-text on the server · optional AI examiner</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section roadmap">
+    <h2 class="sec-title">Roadmap</h2>
+    <ol class="timeline">
+      <li class="done"><b>October 2026</b><span>Built and tested: apps, server, manuals, load and security tests</span></li>
+      <li><b>Next</b><span>Installation on the university server</span></li>
+      <li><b>Pilot</b><span>One class, Windows and Android</span></li>
+      <li><b>Go-live</b><span>Real exams, about four weeks after the server is ready</span></li>
+      <li><b>2027</b><span>All faculties, then partner universities</span></li>
+    </ol>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div><b>AUT Secure Exam 1.3.2</b><br>Designed and built at Ajou University in Tashkent.</div>
+    <div><a href="https://www.ajou.uz">www.ajou.uz</a></div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>

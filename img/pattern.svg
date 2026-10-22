@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="104" viewBox="0 0 120 104">
+  <!-- Tileable hexagon lattice used as a subtle page background (gold on transparent). -->
+  <g fill="none" stroke="#BC8A2C" stroke-opacity=".16" stroke-width="1.5">
+    <path d="M30 0 L60 0 L75 26 L60 52 L30 52 L15 26 Z"/>
+    <path d="M90 52 L120 52 L135 78 L120 104 L90 104 L75 78 Z"/>
+    <path d="M-30 52 L0 52 L15 78 L0 104 L-30 104 L-45 78 Z"/>
+  </g>
+  <circle cx="45" cy="26" r="2" fill="#0A5DAC" fill-opacity=".14"/>
+  <circle cx="105" cy="78" r="2" fill="#0A5DAC" fill-opacity=".14"/>
+</svg>
